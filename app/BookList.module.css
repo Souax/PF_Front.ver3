@@ -1,0 +1,8 @@
+.book_bottom_line {
+  position: absolute;
+  left: 57%;
+  transform: translateX(-50%);
+  width: 65rem;
+  border-bottom: 1px solid gray;
+  margin-bottom: -17rem;
+}

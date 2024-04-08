@@ -1,0 +1,16 @@
+.book_all_title {
+  display: flex;
+  color: white;
+  margin-top: 1rem;
+  font-size: 23px;
+  margin-left: 340px;
+}
+
+.book_all_line {
+  position: absolute;
+  left: 57%;
+  transform: translateX(-50%);
+  width: 65rem;
+  border-bottom: 1px solid white;
+  margin-top: 0.8rem;
+}
