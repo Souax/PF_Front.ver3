@@ -1,5 +1,5 @@
 import { getServerSession } from "next-auth";
-import authOptions from "../../src/pages/api/auth/[...nextauth]";
+import authOptions from "../components/auth/[...nextauth]";
 import DeleteButton from "@/app/logout/DeleteButton";
 import Link from "next/link";
 

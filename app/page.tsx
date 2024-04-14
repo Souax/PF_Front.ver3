@@ -1,11 +1,13 @@
-import React from "react";
+import Image from "next/image";
+import React, { useState, useEffect } from "react";
 import BookRecommendation from "./components/BookHome/BookRecommendation";
 import Link from "next/link";
+import Book from "./components/BookHome/PopularityBookHome";
 import {
   getNewBooks,
   getPopularityBooks,
   getRecommendationBooks,
-} from "@/src/TopPageAPI";
+} from "@/app/components/api/TopPageAPI";
 import PopularityBook from "./components/BookHome/PopularityBookHome";
 import TopPage from "./popularity/TopSlide";
 

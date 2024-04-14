@@ -1,6 +1,6 @@
 import React from "react";
 import PopularityAllBooks from "./PopularityAllBooks";
-import { getPopularityAllBooks } from "@/src/TopPageAPI";
+import { getPopularityAllBooks } from "@/app/components/api/TopPageAPI";
 import Pagination from "../components/pagination/PaginationPage";
 import styles from "../AllBooks/AllBooks.module.css";
 const PopularityBookPage = async ({ params, searchParams }: any) => {

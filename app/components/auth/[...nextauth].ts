@@ -1,6 +1,5 @@
 import NextAuth, { NextAuthOptions } from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
-//import GitHubProvider from "next-auth/providers/github";
 import axios from "axios";
 
 const apiUrl = process.env.NEXT_PUBLIC_API_URL;

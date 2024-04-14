@@ -1,7 +1,7 @@
 import styles from "./AllBooks.module.css";
 import Tag from "./Tag/TagProgramming";
 import TagFramework from "./Tag/TagFramework";
-import { getAllBooks } from "@/src/bookAPI";
+import { getAllBooks } from "@/app/components/api/bookAPI";
 import BookList from "./AllBookList";
 import PaginationComponent from "../components/pagination/PaginationComponent";
 
