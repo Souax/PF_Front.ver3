@@ -2,7 +2,7 @@ import { ApiResponse } from "../types/types";
 
 /* 新刊書の取得 */
 export const getNewBooks = async (page: number = 1): Promise<ApiResponse> => {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/newbook`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/newbook`, {
     next: { revalidate: 1800 },
   });
   const newbooks = await res.json();
@@ -14,7 +14,7 @@ export const getPopularityBooks = async (
   page: number = 1
 ): Promise<ApiResponse> => {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/popularity?page=${page}`,
+    `${process.env.NEXT_PUBLIC_API_URL}/popularity?page=${page}`,
     {
       next: { revalidate: 1800 },
     }
@@ -27,7 +27,7 @@ export const getPopularityAllBooks = async (
   page: number = 1
 ): Promise<ApiResponse> => {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/popularity?page=${page}`,
+    `${process.env.NEXT_PUBLIC_API_URL}/popularity?page=${page}`,
     {
       next: { revalidate: 1800 },
     }
@@ -38,12 +38,9 @@ export const getPopularityAllBooks = async (
 
 /* おすすめ技術書の取得 */
 export const getRecommendationBooks = async (): Promise<ApiResponse> => {
-  const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/recommendation`,
-    {
-      next: { revalidate: 1800 },
-    }
-  );
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/recommendation`, {
+    next: { revalidate: 1800 },
+  });
   const recommendationbooks = await res.json();
   return recommendationbooks;
 };

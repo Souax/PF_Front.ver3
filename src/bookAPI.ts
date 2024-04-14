@@ -3,7 +3,7 @@ import { ApiResponse } from "../types/types";
 /* 全ての本 */
 export const getAllBooks = async (page: number = 1): Promise<ApiResponse> => {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/search?page=${page}`,
+    `${process.env.NEXT_PUBLIC_API_URL}/search?page=${page}`,
     {
       next: { revalidate: 1800 },
     }
@@ -15,7 +15,7 @@ export const getAllBooks = async (page: number = 1): Promise<ApiResponse> => {
 /* 基礎本の取得 */
 export const getBaseBooks = async (page: number = 1): Promise<ApiResponse> => {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/base?page=${page}`,
+    `${process.env.NEXT_PUBLIC_API_URL}/base?page=${page}`,
     {
       next: { revalidate: 1800 },
     }
@@ -27,7 +27,7 @@ export const getBaseBooks = async (page: number = 1): Promise<ApiResponse> => {
 /*　デザイン本の取得 */
 export const getCssBooks = async (page: number = 1): Promise<ApiResponse> => {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/design?page=${page}`,
+    `${process.env.NEXT_PUBLIC_API_URL}/design?page=${page}`,
     {
       next: { revalidate: 1800 },
     }
@@ -41,7 +41,7 @@ export const getComputerBooks = async (
   page: number = 1
 ): Promise<ApiResponse> => {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/computer_science?page=${page}`,
+    `${process.env.NEXT_PUBLIC_API_URL}/computer_science?page=${page}`,
     {
       next: { revalidate: 1800 },
     }
@@ -53,7 +53,7 @@ export const getComputerBooks = async (
 /* フロントエンドの取得 */
 export const getFrontBooks = async (page: number = 1): Promise<ApiResponse> => {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/front_end?page=${page}`,
+    `${process.env.NEXT_PUBLIC_API_URL}/front_end?page=${page}`,
     {
       next: { revalidate: 1800 },
     }
@@ -65,7 +65,7 @@ export const getFrontBooks = async (page: number = 1): Promise<ApiResponse> => {
 /* バックエンドの取得 */
 export const getBackBooks = async (page: number = 1): Promise<ApiResponse> => {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/back_end?page=${page}`,
+    `${process.env.NEXT_PUBLIC_API_URL}/back_end?page=${page}`,
     {
       next: { revalidate: 1800 },
     }
@@ -77,7 +77,7 @@ export const getBackBooks = async (page: number = 1): Promise<ApiResponse> => {
 /* インフラの取得 */
 export const getInfraBooks = async (page: number = 1): Promise<ApiResponse> => {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/infrastructure?page=${page}`,
+    `${process.env.NEXT_PUBLIC_API_URL}/infrastructure?page=${page}`,
     {
       next: { revalidate: 1800 },
     }
@@ -89,7 +89,7 @@ export const getInfraBooks = async (page: number = 1): Promise<ApiResponse> => {
 /* Web開発の取得 */
 export const getWebBooks = async (page: number = 1): Promise<ApiResponse> => {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/web_development?page=${page}`,
+    `${process.env.NEXT_PUBLIC_API_URL}/web_development?page=${page}`,
     {
       next: { revalidate: 1800 },
     }
@@ -103,7 +103,7 @@ export const getUsefulBooks = async (
   page: number = 1
 ): Promise<ApiResponse> => {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/useful_book?page=${page}`,
+    `${process.env.NEXT_PUBLIC_API_URL}/useful_book?page=${page}`,
     {
       next: { revalidate: 1800 },
     }
