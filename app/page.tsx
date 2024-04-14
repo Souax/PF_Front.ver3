@@ -1,8 +1,6 @@
-import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import BookRecommendation from "./components/BookHome/BookRecommendation";
 import Link from "next/link";
-import Book from "./components/BookHome/PopularityBookHome";
 import {
   getNewBooks,
   getPopularityBooks,

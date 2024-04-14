@@ -11,7 +11,7 @@ type PopularityBooks = {
 const PopularityBook = ({ popularitybooks }: PopularityBooks) => {
   return (
     <>
-      <div className={styles.book_title}>人気技術書</div>
+      <div className={styles.book_title}>評価が高い技術書</div>
       <Link href="popularity" className={styles.book_look}>
         もっと見る
       </Link>
