@@ -12,7 +12,7 @@ const PopularityBookPage = async ({ params, searchParams }: any) => {
   return (
     <>
       <div className="pt-10">
-        <div className={styles.book_all_title}>人気技術書</div>
+        <div className={styles.book_all_title}>評価が高い技術書</div>
         <div className={styles.book_all_line} />
         <PopularityAllBooks popularityallbooks={popularityallbooks} />
         <div className="my-[3.5rem] mr-[4rem]">
