@@ -1,6 +1,6 @@
 import React from "react";
 import { getServerSession } from "next-auth";
-import authOptions from "../components/api/auth/[...nextauth]";
+import authOptions from "../../src/api/auth/[...nextauth]";
 import LoginButton from "@/app/login/LoginButton";
 
 const Login = async () => {
