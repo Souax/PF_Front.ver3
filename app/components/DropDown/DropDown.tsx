@@ -30,7 +30,7 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ children }) => {
             <LogoutButton />
             <div className="w-full h-[0.08rem] bg-gray-500"></div>
             <div className="flex items-center pt-[0.6rem] pl-[1.5rem] pb-[0.5rem] text-rose-500 hover:text-red-600">
-              <Link href="Withdrawal" className="flex items-center">
+              <Link href="/profile/Withdrawal" className="flex items-center">
                 <MdOutlineDelete className="mr-2" />
                 退会する
               </Link>

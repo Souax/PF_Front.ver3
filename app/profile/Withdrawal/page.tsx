@@ -1,5 +1,5 @@
 import React from "react";
-import DeleteUser from "../logout/DeleteUser";
+import DeleteUser from "../../logout/DeleteUser";
 
 const DeletePage = () => {
   return (
