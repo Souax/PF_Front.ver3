@@ -1,37 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# README
 
-## Getting Started
+# 新 Bookers！
 
-First, run the development server:
+## サイト概要
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### サイトテーマ
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+技術書を購入したい時にどのようなものがあるのか検索や実際に販売しているサイトに飛ぶことができる Web エンジニア専用データベースサイト
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### テーマを選んだ理由
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+私は初めてプログラミングに触れた際や、新しい言語に触れた時に必ず技術書を購入していました。  
+その際にどの技術書を買えばいいか迷ったことが多々ありました。  
+そこで技術書データベースサイトがあれば、どの技術書を買えばいいか迷った時に適切な技術書を買うことができ、便利になると考えました。
 
-## Learn More
+### ターゲットユーザ
 
-To learn more about Next.js, take a look at the following resources:
+- プログラミング初学者の方
+- 新しい言語や技術に触れたくてどの技術書を買えばいいかわからない方
+- 自分が読んだ技術書の感想を他の人に伝えたい方
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 主な利用シーン
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- 買いたい言語や技術の技術書の検索をしたい時
+- どのような技術書があるかし検索したい時
+- その技術書は自分の身になるのか知りたい時
+- 購入した本のレビューや感想を投稿する時
 
-## Deploy on Vercel
+## 開発環境
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# PF_Front.ver3
+- OS：Linux(CentOS)
+- 言語：HTML,CSS,Ruby,JavaScript,TypeScript,SQL
+- フレームワーク：Ruby on Rails, Next.js
+- JS ライブラリ：React
+- IDE：Visual Studio Code
