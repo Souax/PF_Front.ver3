@@ -1,4 +1,4 @@
-import AuthClientButton from "@/app/components/auth/AuthClientButton";
+import AuthClientButton from "@/src/pages/api/auth/AuthClientButton";
 import { NextPage } from "next";
 import { Session, getServerSession } from "next-auth";
 import React from "react";
