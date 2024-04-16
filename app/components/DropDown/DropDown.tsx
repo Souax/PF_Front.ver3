@@ -29,7 +29,7 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ children }) => {
             </div>
             <LogoutButton />
             <div className="w-full h-[0.08rem] bg-gray-500"></div>
-            <div className="text-[0.85rem] mt-2 pl-[0.9rem] pb-[0.5rem]">
+            <div className="text-[0.85rem] mt-2 pl-[0.9rem] pb-[0.6rem]">
               Danger zone
             </div>
             <div className="flex items-center pl-[1.5rem] pb-[0.5rem] text-rose-500 hover:text-red-600">
