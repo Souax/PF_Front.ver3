@@ -20,7 +20,7 @@ const DeleteUser = async () => {
       href="/"
       className="px-6 py-2 bg-gray-700 text-white text-lg rounded-md shadow-lg transition hover:bg-gray-600"
     >
-      ホームに戻
+      ホームに戻る
     </Link>
   );
 };
