@@ -2,7 +2,7 @@ import NextAuth, { NextAuthOptions } from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import axios from "axios";
 
-const apiUrl = "http://18.180.77.60";
+const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
 type ClientType = {
   clientId: string;
