@@ -9,7 +9,7 @@ const shippori_Mincho = Shippori_Mincho({ weight: "400", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "新Bookers",
   description:
-    "Webエンジニアのための技術書データベースサイトです。最新のトレンドから古典的な名著まで、幅広いテーマを網羅しています。新しい知識とスキルを身につけ、あなたのキャリアを次のレベルに引き上げましょう！",
+    "Webエンジニアのための技術書データベースサイトです。最新のトレンドから古典的な名著まで、幅広いテーマを網羅しています。技術書を探してる方は是非ご利用下さい！",
 };
 
 export default function RootLayout({
