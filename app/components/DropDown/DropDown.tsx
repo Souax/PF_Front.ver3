@@ -28,7 +28,7 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ children }) => {
               <Link href="/profile">プロフィール</Link>
             </div>
             <LogoutButton />
-            <div className="w-full h-[0.08rem] bg-gray-500"></div>
+            {/*<div className="w-full h-[0.08rem] bg-gray-500"></div>
             <div className="text-[0.85rem] mt-3 pl-[0.9rem] pb-[0.6rem]">
               Danger zone
             </div>
@@ -37,7 +37,7 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ children }) => {
                 <MdOutlineDelete className="mr-2" />
                 退会する
               </Link>
-            </div>
+      </div>*/}
           </div>
         </>
       )}
