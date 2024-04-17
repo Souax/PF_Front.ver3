@@ -40,8 +40,8 @@ const Profile = async ({ session }: { session: Session | null }) => {
           </div>
         </div>
       ) : (
-        <div className="flex flex-col justify-center p-4">
-          <p>ログインしてください</p>
+        <div className="flex flex-col justify-center p-4 text-white">
+          <p className="text-center">ログインしてください</p>
         </div>
       )}
     </>
