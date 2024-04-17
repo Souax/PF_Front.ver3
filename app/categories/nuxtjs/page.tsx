@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../../AllBooks/AllBooks.module.css";
 import NuxtBooks from "./Nuxt";
-import { getNuxtBooks } from "@/app/components/api/ProgrammingAPI";
+import { getNuxtBooks } from "@/src/ProgrammingAPI";
 import PaginationComponent from "@/app/components/pagination/PaginationComponent";
 
 export default async function NuxtBook({ params, searchParams }: any) {

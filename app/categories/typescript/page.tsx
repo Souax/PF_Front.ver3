@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "../../AllBooks/AllBooks.module.css";
-import { getTypeScriptBooks } from "@/app/components/api/ProgrammingAPI";
+import { getTypeScriptBooks } from "@/src/ProgrammingAPI";
 import TypescriptBooks from "./Typescript";
 import PaginationComponent from "@/app/components/pagination/PaginationComponent";
 

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../../AllBooks/AllBooks.module.css";
 import NextBooks from "./Next";
-import { getNextBooks } from "@/app/components/api/ProgrammingAPI";
+import { getNextBooks } from "@/src/ProgrammingAPI";
 import PaginationComponent from "@/app/components/pagination/PaginationComponent";
 
 export default async function NextBook({ params, searchParams }: any) {

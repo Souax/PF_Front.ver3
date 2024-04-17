@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "../../AllBooks/AllBooks.module.css";
-import { getLaravelBooks } from "@/app/components/api/ProgrammingAPI";
+import { getLaravelBooks } from "@/src/ProgrammingAPI";
 import LaravelBooks from "./Laravel";
 import PaginationComponent from "@/app/components/pagination/PaginationComponent";
 

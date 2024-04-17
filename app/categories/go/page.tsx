@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../../AllBooks/AllBooks.module.css";
 import GoBooks from "./Go";
-import { getGoBooks } from "@/app/components/api/ProgrammingAPI";
+import { getGoBooks } from "@/src/ProgrammingAPI";
 import PaginationComponent from "@/app/components/pagination/PaginationComponent";
 
 export default async function GoBook({ params, searchParams }: any) {

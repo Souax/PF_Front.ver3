@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "../AllBooks/AllBooks.module.css";
-import { getBaseBooks } from "@/app/components/api/bookAPI";
+import { getBaseBooks } from "@/src/bookAPI";
 import BaseBooks from "./BaseBooks";
 import Pagination from "../components/pagination/PaginationPage";
 

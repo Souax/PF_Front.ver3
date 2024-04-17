@@ -1,4 +1,4 @@
-import { ApiResponse } from "../../../types/types";
+import { ApiResponse } from "../types/types";
 
 /* 新刊書の取得 */
 export const getNewBooks = async (page: number = 1): Promise<ApiResponse> => {

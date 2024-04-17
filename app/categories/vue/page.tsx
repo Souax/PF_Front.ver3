@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../../AllBooks/AllBooks.module.css";
 import VueBooks from "./Vue";
-import { getVueBooks } from "@/app/components/api/ProgrammingAPI";
+import { getVueBooks } from "@/src/ProgrammingAPI";
 import PaginationComponent from "@/app/components/pagination/PaginationComponent";
 
 export default async function VueBook({ params, searchParams }: any) {

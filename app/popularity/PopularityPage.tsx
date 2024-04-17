@@ -1,6 +1,6 @@
 import React from "react";
 import PopularityBook from "../components/BookHome/PopularityBookHome";
-import { getPopularityBooks } from "@/app/components/api/TopPageAPI";
+import { getPopularityBooks } from "@/src/TopPageAPI";
 
 const PopularityPage = async () => {
   const popularitybooks = await getPopularityBooks();

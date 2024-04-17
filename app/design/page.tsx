@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "../AllBooks/AllBooks.module.css";
-import { getCssBooks } from "@/app/components/api/bookAPI";
+import { getCssBooks } from "@/src/bookAPI";
 import CssBookList from "./CssBooks";
 import Pagination from "../components/pagination/PaginationPage";
 

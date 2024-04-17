@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "../AllBooks/AllBooks.module.css";
-import { getComputerBooks } from "@/app/components/api/bookAPI";
+import { getComputerBooks } from "@/src/bookAPI";
 import ComputerBooks from "./ComputerScience";
 import Pagination from "../components/pagination/PaginationPage";
 

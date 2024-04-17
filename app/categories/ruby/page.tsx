@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../../AllBooks/AllBooks.module.css";
 import RubyBooks from "./Ruby";
-import { getRubyBooks } from "@/app/components/api/ProgrammingAPI";
+import { getRubyBooks } from "@/src/ProgrammingAPI";
 import PaginationComponent from "@/app/components/pagination/PaginationComponent";
 
 export default async function RubyBook({ params, searchParams }: any) {

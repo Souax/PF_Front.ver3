@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../../AllBooks/AllBooks.module.css";
 import RailsBooks from "./Rails";
-import { getRailsBooks } from "@/app/components/api/ProgrammingAPI";
+import { getRailsBooks } from "@/src/ProgrammingAPI";
 import PaginationComponent from "@/app/components/pagination/PaginationComponent";
 
 export default async function RailsBook({ params, searchParams }: any) {

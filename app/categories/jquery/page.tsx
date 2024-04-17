@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../../AllBooks/AllBooks.module.css";
 import JqueryBooks from "./jQuery";
-import { getJqueryBooks } from "@/app/components/api/ProgrammingAPI";
+import { getJqueryBooks } from "@/src/ProgrammingAPI";
 import PaginationComponent from "@/app/components/pagination/PaginationComponent";
 
 export default async function jQueryBook({ params, searchParams }: any) {

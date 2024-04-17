@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "../AllBooks/AllBooks.module.css";
-import { getWebBooks } from "@/app/components/api/bookAPI";
+import { getWebBooks } from "@/src/bookAPI";
 import WebBooks from "./WebDevelopment";
 import Pagination from "../components/pagination/PaginationPage";
 

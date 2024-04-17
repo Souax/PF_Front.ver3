@@ -1,4 +1,4 @@
-import { ApiResponse } from "../../../types/types";
+import { ApiResponse } from "../types/types";
 
 /* JavaScriptの取得 */
 export const getJavaScriptBooks = async (

@@ -5,7 +5,7 @@ import {
   getNewBooks,
   getPopularityBooks,
   getRecommendationBooks,
-} from "@/app/components/api/TopPageAPI";
+} from "@/src/TopPageAPI";
 import PopularityBook from "./components/BookHome/PopularityBookHome";
 import TopPage from "./popularity/TopSlide";
 

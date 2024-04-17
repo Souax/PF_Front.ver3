@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import styles from "../AllBooks/AllBooks.module.css";
-import { getFrontBooks } from "@/app/components/api/bookAPI";
+import { getFrontBooks } from "@/src/bookAPI";
 import FrontBooks from "./Front";
 import Pagination from "../components/pagination/PaginationPage";
 

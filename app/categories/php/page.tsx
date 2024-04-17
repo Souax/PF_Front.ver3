@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../../AllBooks/AllBooks.module.css";
 import PhpBooks from "./PHP";
-import { getPhpBooks } from "@/app/components/api/ProgrammingAPI";
+import { getPhpBooks } from "@/src/ProgrammingAPI";
 import PaginationComponent from "@/app/components/pagination/PaginationComponent";
 
 export default async function PhpBook({ params, searchParams }: any) {

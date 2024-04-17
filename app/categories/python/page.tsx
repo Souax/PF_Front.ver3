@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../../AllBooks/AllBooks.module.css";
 import PythonBooks from "./Python";
-import { getPythonBooks } from "@/app/components/api/ProgrammingAPI";
+import { getPythonBooks } from "@/src/ProgrammingAPI";
 import PaginationComponent from "@/app/components/pagination/PaginationComponent";
 
 export default async function PythonBook({ params, searchParams }: any) {

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "../AllBooks/AllBooks.module.css";
-import { getInfraBooks } from "@/app/components/api/bookAPI";
+import { getInfraBooks } from "@/src/bookAPI";
 import InfraBooks from "./Infrastructure";
 import Pagination from "../components/pagination/PaginationPage";
 
