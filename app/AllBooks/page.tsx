@@ -10,7 +10,7 @@ export default async function AllBook({ params, searchParams }: any) {
   const allbooks = await getAllBooks(page);
   const totalDataCount = 1367;
   const itemsPerPage = 10;
-  const baseURL = "AllBook";
+  const baseURL = "AllBooks";
 
   return (
     <>
