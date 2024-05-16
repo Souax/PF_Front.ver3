@@ -21,11 +21,11 @@ export default async function Home() {
         <PopularityBook popularitybooks={popularitybooks} />
         <BookRecommendation recommendationbooks={recommendationbooks} />
         <div className="flex justify-center items-center pb-10">
-          <div className="flex mt-[3rem] bg-[#5A5A5A] rounded-full w-[40rem] py-[0.8rem] text-white text-center items-center justify-center cursor-pointer hover:bg-[#3A3A3A]">
-            <Link href="/AllBooks" className="relative flex">
+          <Link href="/AllBooks" className="flex mt-[3rem] bg-[#5A5A5A] rounded-full w-[40rem] py-[0.8rem] text-white text-center items-center justify-center cursor-pointer hover:bg-[#3A3A3A]">
+            <div className="relative flex">
               全ての技術書を見る
-            </Link>
-          </div>
+            </div>
+          </Link>
         </div>
       </main>
     </>
